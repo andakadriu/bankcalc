@@ -6,22 +6,6 @@ $connect = new PDO("mysql:host=localhost;dbname=bankcalc", "root", "");
 
 $column = array('dataB', 'emriBankes', 'vlera');
 
-// $order_costumer_name=$_POST['order_costumer_name'];
-// $order_item=$_POST['order_item'];
-// $order_date=$_POST['order_date'];
-// $order_value=$_POST['order_value'];
-
-// $qry = "INSERT INTO `table10`(`order_costumer_name`, `order_item`, `order_date`,
-//  `order_value`) VALUES ('$order_costumer_name', '$order_item', '$order_date','$order_value')";
-//  $insert = mysqli_query($con,$qry);
-//  if(!$insert){
-//     echo "problem";
-//  }
-//  else{
-//     echo "success";
-//  }
-
-// echo $order_costumer_name."<br>". $order_item."<br>".$order_date."<br>".$order_value."<br>";
 
 $query = '
 SELECT * FROM banka 
@@ -44,11 +28,6 @@ if ($_POST["length"] != -1) {
 }
 
 
-
-//aa
-
-
-//aaa
 
 $statement = $connect->prepare($query);
 

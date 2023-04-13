@@ -33,8 +33,8 @@
         
         <div class="nav-links">
             <ul>
-          <li><a href="index.php" target="">Shiko kalkulimet</a></li>
-          <li><a href="add.php" target="">Shto</a></li>
+          <li><a href="index.php" target="">SHIKO KALKULIMET</a></li>
+          <li><a href="add.php" target="">SHTO</a></li>
          
          
             </ul>
